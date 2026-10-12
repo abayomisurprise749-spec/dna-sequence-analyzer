@@ -31,11 +31,11 @@ input:
 ATGC
 
 Expected analysis:
-Length: 4
-A: 1
-T: 1
-G: 1
-C: 1
-GC content: 50.0%
-AT content: 50.0%
-Classificaton GC-rich
+- Length: 4
+- A: 1
+- T: 1
+- G: 1
+- C: 1
+- GC content: 50.0%
+- AT content: 50.0%
+- Classificaton GC-rich
