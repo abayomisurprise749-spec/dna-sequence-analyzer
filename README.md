@@ -20,11 +20,11 @@ The program accepts up to three DNA sequences, checks whether they contain valid
 - GitHub
 
 ## How to Run
-Install Python 3
-Download `practice_7.py` from this respository.
-Open the file in Python IDLE or another Python editor.
-Run the program
-Enter up to three DNA sequences when prompted
+1. Install Python 3
+2. Download `practice_7.py` from this respository.
+3. Open the file in Python IDLE or another Python editor.
+4. Run the program
+5. Enter up to three DNA sequences when prompted
 
 ## Example
 input:
