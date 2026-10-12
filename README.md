@@ -1,28 +1,41 @@
 # DNA Sequence Analyzer
-A beginner Python bioinformatics project for analyzing DNA sequences.
-## Features
-- Accepts DNA sequences from the user
-- Removes spaces from sequences
-- Validates DNA bases (A, T, G, C)
-- Counts A, T, G, and C nucleotides
-- Calculates GC content
-- Classifies sequences as GC-rich or AT-rich
-- Analyzes up to three DNA sequences in one run
-## Example
-- **Input:**
-- ATGC
-- **Output:**
-- A: 1
-- T: 1
-- G: 1
-- C: 1
-- GC content: 50.0%
-- GC-rich DNA
-  - ## Technologies
-- Python 3
-- Basic bioinformatics concepts
-- ## What I Learned
-- This project helped me practice Python variables, strings, input handling, loops, conditions, validation, and basic DNA sequence analysis.
-- ## Author
-- Biochemistry Student | Aspiring Bioinformation
+A beginner Python bioinformatics project that analyzes DNA sequences by calculating nucleotide counts and GC/AT contents.
 
+## Project Overview
+This project was created as part of my journey as a Biochemistry student learning Python and Bioinformatics.
+The program accepts up to three DNA sequences, checks whether they contain valid DNA bases, and analyzes valid sequences.
+
+## Feactures
+- Accepts up to three DNA sequences.
+- Converts lowercase letters to uppercase.
+- Removes leading, trailing, and internal spaces.
+- Validates DNA sequences using A, T, G, C.
+- Counts individual nucleotides (A, T, G, C).
+- Calculates GC content and AT content.
+- Classifies sequences as GC-rich or AT-rich.
+- Rejects invalid or empty DNA sequences.
+
+## Technologies Used
+- Python 3
+- GitHub
+
+## How to Run
+Install Python 3
+Download `practice_7.py` from this respository.
+Open the file in Python IDLE or another Python editor.
+Run the program
+Enter up to three DNA sequences when prompted
+
+## Example
+input:
+ATGC
+
+Expected analysis:
+Length: 4
+A: 1
+T: 1
+G: 1
+C: 1
+GC content: 50.0%
+AT content: 50.0%
+Classificaton GC-rich
