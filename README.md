@@ -7,7 +7,8 @@ A beginner bioinformatics project built with Python to explore DNA sequences and
    - Count individual DNA bases: A, T, G, and C.
    - Calculate GC content.
    - Transcribe DNA into RNA.
-   - Generate complementary and reverse-complement sequences.
+   - Generate complementary DNA sequences.
+   - Reverse-complement DNA sequences.
 
 2. # DNA Motif Finder
 
