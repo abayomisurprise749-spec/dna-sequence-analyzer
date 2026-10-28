@@ -1,41 +1,53 @@
 # DNA Sequence Analyzer
-A beginner Python bioinformatics project that analyzes DNA sequences by calculating nucleotide counts and GC/AT contents.
+A beginner bioinformatics project built with Python to explore DNA sequences and practice biological sequence analysis.
+## Features
 
-## Project Overview
-This project was created as part of my journey as a Biochemistry student learning Python and Bioinformatics.
-The program accepts up to three DNA sequences, checks whether they contain valid DNA bases, and analyzes valid sequences.
+1. # DNA Sequence Analysis
+   - Calculate DNA sequence length.
+   - Count individual DNA bases: A, T, G, and C.
+   - Calculate GC content.
+   - Transcribe DNA into RNA.
+   - Generate complementary and reverse-complement sequences.
 
-## Feactures
-- Accepts up to three DNA sequences.
-- Converts lowercase letters to uppercase.
-- Removes leading, trailing, and internal spaces.
-- Validates DNA sequences using A, T, G, C.
-- Counts individual nucleotides (A, T, G, C).
-- Calculates GC content and AT content.
-- Classifies sequences as GC-rich or AT-rich.
-- Rejects invalid or empty DNA sequences.
+2. # DNA Motif Finder
 
-## Technologies Used
-- Python 3
-- GitHub
+        The motif_finder_validation.py, program allows users to enter a DNA sequence and a motif to seacrch for.
+   # Features include:
+        - Accepts DNA sequences and motifs from user input
+        - convert lowercase input to uppercase.
+        - Validate DNA sequences and motifs.
+        - Reject invalid DNA sequences and motifs
+        - find motif positions using zero-based indexing.
+        - Count overlapping motif occurrences.
 
-## How to Run
-1. Install Python 3
-2. Download `practice_7.py` from this respository.
-3. Open the file in Python IDLE or another Python editor.
-4. Run the program
-5. Enter up to three DNA sequences when prompted
+   # Example
+   # DNA sequence: ATATATA
+   # Motif: ATA
+   # Output:
+          - Motif found at position: 0
+          - Motif found at position: 2
+          - Motif found at position: 4
+          - Total overlapping occurrences: 3
+   # Validation Examples
+   # Valid DNA:
+          ATATATA
+    # Inavalid DNA:
+          ATGXTA
+          - The program displays an error messages when the DNA sequences contains invalid characters.
+3. # How to Run
+             1. Install python
+             2. Download or clone this repository
+             3. Open a terminal in the folder containing
+                motif_finder_validation.py.
+4. # Run
+    - python
+    - motif_finder_validation.py
+    - follow the prompts to enter a DNA sequences and a motif
+ # Technologies
+     - Python 3
+      - GitHub
+      - Basic DNA sequences analysis
 
-## Example
-input:
-ATGC
-
-Expected analysis:
-- Length: 4
-- A: 1
-- T: 1
-- G: 1
-- C: 1
-- GC content: 50.0%
-- AT content: 50.0%
-- Classificaton GC-rich
+   # Learning Goals
+            This project is part of my ongoing journey into bioinformatics, with a focus on Python programming and biological sequence analysis.
+   I am continuously improving the project as I learn new concepts and techniques
