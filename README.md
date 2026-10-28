@@ -11,7 +11,9 @@ A beginner bioinformatics project built with Python to explore DNA sequences and
 
 2. # DNA Motif Finder
 
-        The motif_finder_validation.py, program allows users to enter a DNA sequence and a motif to seacrch for.
+   - The motif_finder_validation.py
+   -  program allows users to enter a DNA sequence and a motif to search for.
+     
    # Features include:
         - Accepts DNA sequences and motifs from user input
         - convert lowercase input to uppercase.
@@ -34,12 +36,12 @@ A beginner bioinformatics project built with Python to explore DNA sequences and
     # Inavalid DNA:
           ATGXTA
           - The program displays an error messages when the DNA sequences contains invalid characters.
-3. # How to Run
+4. # How to Run
              1. Install python
              2. Download or clone this repository
              3. Open a terminal in the folder containing
                 motif_finder_validation.py.
-4. # Run
+5. # Run
     - python
     - motif_finder_validation.py
     - follow the prompts to enter a DNA sequences and a motif
